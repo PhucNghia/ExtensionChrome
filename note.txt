@@ -1,0 +1,2 @@
+
+    "matches": "['*://*/*', 'https://*/*', 'file:///D:/TECH/Extensions/test.html']"

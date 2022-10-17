@@ -1,0 +1,23 @@
+{
+    "name": "Animation extention",
+    "manifest_version": 3,
+    "version": "1.2",
+    "description": "Falling icon Animation",
+    "content_scripts": [
+        {
+            "matches": [
+                "file:///D:/TECH/OKE/Extensions_H_FB_2/test.html",
+                "https://www.fb.com/*",
+                "https://www.facebook.com/*"
+            ],
+            "css": ["my-styles.css", "animation.css"],
+            "js": ["extention.js"]
+        }
+    ],
+    "icons": {
+        "16": "penguin128.png",
+        "32": "penguin128.png",
+        "48": "penguin128.png",
+        "128": "penguin128.png"
+    }
+}
